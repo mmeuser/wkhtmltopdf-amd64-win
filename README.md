@@ -16,10 +16,6 @@ In case this package does _not_ work on your system, try installing the matching
 
 This package can be found on [Packagist](http://packagist.org) and installed with [Composer](https://getcomposer.org/).
 
-Require the package for _i386_ with:
-
-    php composer.phar require mmeuser/wkhtmltopdf-i386-win "0.12.2.1"
-
 And for _amd64_ with:
 
     php composer.phar require mmeuser/wkhtmltopdf-amd64-win "0.12.2.1"
