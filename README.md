@@ -1,7 +1,7 @@
 wkhtmltopdf
 ================
 
-This repository contains the Windows binaries from the [wkhtmltopdf project](http://wkhtmltopdf.org/).
+This repository contains the Windows (MSVC 2013) 64-bit binaries from the [wkhtmltopdf project](http://wkhtmltopdf.org/).
 More about the functionality of wkhtmltopdf and wkthmltoimage can be found there.
 
 ## Installation
@@ -18,17 +18,12 @@ This package can be found on [Packagist](http://packagist.org) and installed wit
 
 Require the package for _i386_ with:
 
-    php composer.phar require h4cc/wkhtmltopdf-i386 "0.12.2.1"
+    php composer.phar require mmeuser/wkhtmltopdf-i386-win "0.12.2.1"
 
 And for _amd64_ with:
 
-    php composer.phar require h4cc/wkhtmltopdf-amd64 "0.12.2.1"
+    php composer.phar require mmeuser/wkhtmltopdf-amd64-win "0.12.2.1"
 
 The binary will then be located at:
 
-    vendor/h4cc/wkhtmltopdf-i386/bin/wkhtmltopdf-i386
-
-Also a symlink will be created in your configured bin/ folder, for example:
-
-    vendor/bin/wkhtmltopdf-i386
-
+    vendor/mmeuser/wkhtmltopdf-i386/bin/wkhtmltopdf-i386
