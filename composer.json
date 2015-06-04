@@ -1,6 +1,6 @@
 {
     "name": "mmeuser/wkhtmltopdf-amd64-win",
-    "description": "Convert html to pdf using webkit (qtwebkit).",
+    "description": "Convert html to pdf using webkit (qtwebkit). Windows (MSVC 2013) 64-bit binaries",
     "keywords": ["pdf", "thumbnail", "snapshot", "wkhtmltopdf", "convert", "binary"],
     "license": "LGPL Version 3",
     "homepage": "http://wkhtmltopdf.org/",
