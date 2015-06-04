@@ -12,7 +12,8 @@
     ],
     "minimum-stability": "stable",
     "bin": [
-        "bin/wkhtmltopdf-amd64"
+        "bin/wkhtmltopdf.exe",
+        "bin/wkhtmltoimage.exe",
     ],
     "require": {
     }
